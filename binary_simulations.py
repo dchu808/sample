@@ -9,17 +9,13 @@ from astropy.stats import LombScargle
 from astropy.time import Time
 from astropy.table import Table
 import os,scipy, subprocess
-from subprocess import call, check_output, Popen, PIPE
 from scipy import stats
 from scipy.stats import f
 import shutil, logging, datetime
 import MySQLdb as mdb
 from tqdm import tqdm
 from math import pi, cos, sin, fabs,sqrt, floor
-# import gcwork.efit.efit5_results as ef
 
-# from gcutil import polyfit2 as polyfit2
-# matplotlib inline
 font = {        'size'   : 20}
 matplotlib.rc('font', **font)
 
